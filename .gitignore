@@ -1,0 +1,15 @@
+# Raw API output contains usernames / temporary-account names / edit comments: keep local only
+data/raw/
+*.sqlite
+*.db
+.env
+salt.txt
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Scripts and raw downloads stay local for now; editor settings
+1st/
+*.code-workspace
