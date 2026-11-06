@@ -13,3 +13,7 @@ __pycache__/
 # Scripts and raw downloads stay local for now; editor settings
 1st/
 *.code-workspace
+
+# Full cleaned tables: no usernames, but revision IDs, timestamps and editor
+# hashes can be linked back to editors. Only data/sample/ is committed.
+data/clean/
