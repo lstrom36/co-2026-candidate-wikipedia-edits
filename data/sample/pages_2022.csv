@@ -1,0 +1,15 @@
+cycle,title,candidate,race,party,incumbent,cook_rating,rating_as_of,competitive,page_created,redirect_now,live_days_baseline,live_days_campaign,live_days_post,edits_total
+2022,Jared_Polis,Jared Polis,Governor,D,Y,Solid D,2022-07-29,False,2007-04-02,False,70,50,14,54
+2022,Heidi_Ganahl,Heidi Ganahl,Governor,R,N,Solid D,2022-07-29,False,2009-01-28,False,70,50,14,27
+2022,Michael_Bennet,Michael Bennet,Senate,D,Y,Lean D,2022-08-18,True,2009-01-02,False,70,50,14,42
+2022,Joe_O'Dea,Joe O'Dea,Senate,R,N,Lean D,2022-08-18,True,,True,0,40,14,60
+2022,Diana_DeGette,Diana DeGette,CO-1,D,Y,Solid D,2021-11-29,False,2003-12-21,False,70,50,14,3
+2022,Joe_Neguse,Joe Neguse,CO-2,D,Y,Solid D,2021-11-29,False,2014-11-04,False,70,50,14,14
+2022,Lauren_Boebert,Lauren Boebert,CO-3,R,Y,Solid R,2021-11-29,False,2020-07-01,False,70,50,14,244
+2022,Adam_Frisch,Adam Frisch,CO-3,D,N,Solid R,2021-11-29,False,2022-07-27,False,55,50,14,153
+2022,Ken_Buck,Ken Buck,CO-4,R,Y,Solid R,2021-11-29,False,2009-05-02,False,70,50,14,20
+2022,Doug_Lamborn,Doug Lamborn,CO-5,R,Y,Solid R,2021-11-29,False,2006-07-27,False,70,50,14,8
+2022,Jason_Crow,Jason Crow,CO-6,D,Y,Solid D,2021-11-29,False,2018-05-30,False,70,50,14,4
+2022,Brittany_Pettersen,Brittany Pettersen,CO-7,D,N,Likely D,2022-01-26,True,2013-09-07,False,70,50,14,13
+2022,Yadira_Caraveo,Yadira Caraveo,CO-8,D,N,Tossup,2021-11-29,True,2018-11-25,False,70,50,14,34
+2022,Barbara_Kirkmeyer,Barbara Kirkmeyer,CO-8,R,N,Tossup,2021-11-29,True,2020-11-28,False,70,50,14,10
