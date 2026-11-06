@@ -26,8 +26,8 @@ Every request sends a User-Agent with my contact email, waits one second after e
 
 | Cycle | Collected | Window covered | Note |
 | --- | --- | --- | --- |
-| 2022 (pilot) | [DATE] | Jul 12 – Nov 22, 2022 | Finished cycle, complete |
-| 2026 | [DATE] | Jul 14 – [END], 2026 | Snapshot. The post-election window (Nov 4–17) isn't over yet, so I'll run it again after Nov 17 |
+| 2022 (pilot) | Nov 6, 2026 | Jul 12 – Nov 22, 2022 | Finished cycle, complete |
+| 2026 | Nov 6, 2026 | Jul 14 – Nov 5, 2026 | Snapshot. The post-election window (Nov 4–17) isn't over yet, so I'll run it again after Nov 17 |
 
 All dates are UTC days.
 
@@ -36,9 +36,9 @@ All dates are UTC days.
 | Table | 2022 | 2026 | One row is |
 | --- | --- | --- | --- |
 | `pages` | 14 | 15 | a candidate page |
-| `edits` | [N] | [N] | one edit |
-| `page_days` | 1,876 | [N] | one page on one day (edits, views, protection) |
-| `protection` | [N] | [N] | one protection log event |
+| `edits` | 686 | 335 | one edit |
+| `page_days` | 1,876 | 1,725 | one page on one day (edits, views, protection) |
+| `protection` | 22 | 20 | one protection log event |
 
 The 2022 cycle has 20 nominees and 14 with pages. 2026 has 21 nominees and 15 with pages. Six House challengers in each cycle have no Wikipedia page, so they aren't in the data. Full per-page counts are in the cleaning logs: [`docs/cleaning_log_2022.md`](docs/cleaning_log_2022.md) and [`docs/cleaning_log_2026.md`](docs/cleaning_log_2026.md).
 
@@ -57,9 +57,9 @@ The 2022 cycle has 20 nominees and 14 with pages. 2026 has 21 nominees and 15 wi
 
 ### Things to know about the data
 
-- **Joe O'Dea (2022)** is now a redirect to the 2022 Senate race article. The code collects the history of the `Joe_O'Dea` title itself, not the race article, and uses page size to tell article days from redirect days (`article_live`).
+- **Joe O'Dea (2022)** is now a redirect to the 2022 Senate race article. The code collects the history of the `Joe_O'Dea` title itself, not the race article, and uses page size to tell article days from redirect days (`article_live`). In the 2022 window the title was an article on 0 of 70 baseline days, 40 of 50 campaign days and all 14 post days, so his page has no baseline rate to compare against.
 - **Adam Frisch (2022)** got his page on July 27, 2022, after the baseline started. Rates for his page should use the days the page existed (`live_days_*` in `pages`), not calendar days.
-- **Lauren Boebert's page** has been semi-protected (`autoconfirmed`) for years, and **Melat Kiros's** page is semi-protected now. Temporary-account and IP editors can't edit a protected page, so these pages will show few unregistered edits no matter what. `edit_protection` in `page_days` marks every protected day.
+- **Some pages were protected during the windows.** Lauren Boebert's page was edit-protected on 104 of 134 days in 2022 and 45 of 115 days in 2026 so far. Melat Kiros's page was edit-protected on all 115 days in 2026, and Jared Polis's page on 4 days in 2022. Temporary-account and IP editors can't edit a protected page, so these pages will show fewer unregistered edits. `edit_protection` in `page_days` marks every protected day.
 - **Logged-out editors changed in the middle of my comparison.** In 2022 they show up as IP addresses. Since November 4, 2025, English Wikipedia gives them temporary accounts (names starting with `~`). Both count as "unregistered."
 - **Bot status is current, not historical.** It comes from each account's user groups at collection time.
 
