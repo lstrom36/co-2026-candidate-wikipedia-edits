@@ -86,18 +86,31 @@ where a page-day is one page on one day. The main number is the **campaign-to-ba
 
 ## Findings
 
-*Preliminary: based on the November 6 snapshot. I will update these after the final collection run (after November 17, 2026).*
+*Preliminary: the 2026 numbers come from the November 6 snapshot, which ends on November 5. I will update them after the final collection run (after November 17, 2026).* All rates are edits per page per day; the full tables are in [`results/`](results/).
 
 ![Edits per page per day, baseline vs. campaign, competitive vs. safe races, 2022 and 2026](figures/edit_rate_by_period.png)
 
 **Figure 1.** Edits per page per day in the summer baseline and in the final seven weeks before Election Day, for candidates in competitive races (Cook rating of Likely or closer) and safe races, in 2022 and 2026.
 
-1. **Editing went up before the election, but it did not double.** Across the 15 pages in 2026 there were 129 edits on 945 page-days in the baseline (0.14 edits per page per day) and 155 edits on 750 page-days in the final seven weeks (0.21). That is a ratio of about 1.5, below the "at least double" I expected in my proposal. The 2022 pilot shows a similar, smaller rise (roughly 0.23 to 0.31, a ratio of about 1.3).
-2. **The biggest jump comes after the polls close, not before.** In 2022, the two weeks after Election Day had 264 edits on 196 page-days (1.35 edits per page per day), more than four times the campaign rate. The first two days after the 2026 election (November 4–5) already have 51 edits on 30 page-days (1.7 per page per day). I did not predict this in my proposal.
-3. **Most edits come from registered accounts.** Unregistered editors made 50 of the 335 edits in 2026 so far (15%, all temporary accounts) and 104 of 686 in 2022 (15%, all IP addresses). Bots made 6 and 23.
-4. **Editing is concentrated on a few pages.** In 2026, Victor Marx's page has 89 of the 335 edits, while Jeff Hurd's (CO-3, rated Likely R) has 1. In 2022, Lauren Boebert's and Adam Frisch's pages have 397 of the 686. This is why the group comparisons need care.
+1. **Editing went up before the election, but it did not double.** Across all 15 pages in 2026, the rate rose from 0.137 in the baseline to 0.207 in the final seven weeks, a ratio of 1.51. In the 2022 pilot it rose from 0.234 to 0.307, a ratio of 1.32. My proposal expected at least 2.
 
-The competitive vs. safe and incumbent vs. challenger ratios, the share of edits by editor type in each period, the share reverted, and the page-view comparison are in the notebook's tables and in [`results/`](results/). Figure 2 ([`figures/weekly_timeline.png`](figures/weekly_timeline.png)) shows the weekly timeline.
+2. **In 2026 the increase was much bigger in competitive races.** The four competitive-race pages (CO-3, CO-5, CO-8) went from 0.036 to 0.250 (a pooled ratio of 7.0; median per-page ratio 4.2, for the 3 pages that had any baseline edits). The 11 safe-race pages barely moved, from 0.173 to 0.191 (ratio 1.10; median 1.05). This is what I predicted, but the competitive baseline is very small: 9 edits in 63 days across four pages, against 50 edits in the campaign. A few edits either way would change the ratio a lot.
+
+3. **The 2022 pilot does not show the same pattern.** The pooled ratio was a little higher for competitive races (1.56) than for safe ones (1.28), but the median page in both groups was edited *less* in the campaign than in the baseline (median per-page ratios 0.76 and 0.70). In 2022, the overall rise came from a few busy pages, not from most pages.
+
+4. **Incumbents vs. challengers points in opposite directions in the two cycles.** In 2026, incumbents' pages rose more (pooled ratio 2.91, median 1.97) than challengers' (1.11, median 1.05). In 2022 it was the other way round (incumbents 1.18, challengers 1.72). In 2026 three of the four competitive-race pages belong to incumbents (Hurd, Crank, Evans), so this comparison overlaps with finding 2 and I can't separate the two with this few pages.
+
+5. **The biggest jump comes after the polls close.** The two weeks after the 2022 election had 1.347 edits per page per day (264 edits), more than four times the campaign rate. The first two days after the 2026 election (November 4–5) had 1.700 (51 edits). I did not predict this.
+
+6. **Most editing is by registered accounts, and the unregistered share did not rise in 2026.** Unregistered editors made 17.1% of baseline edits, 12.9% of campaign edits and 15.7% of post-election edits in 2026 (temporary accounts). In 2022 (IP addresses) the share did rise, from 11.5% to 18.3%, as I expected. The share of edits later reverted also went in opposite directions: in 2022 it doubled from 12.4% to 24.9% in the campaign, while in 2026 it fell from 11.6% to 4.5%.
+
+7. **Editing did not simply follow page views.** In 2026, views of competitive-race pages rose 2.51 times while edits rose 7.0 times; views of safe-race pages rose 1.40 times while edits rose only 1.10 times. In 2022 the two moved more closely for competitive races (views ×1.71, edits ×1.56).
+
+![Weekly edits per page per day, competitive vs. safe races, 2022 and 2026](figures/weekly_timeline.png)
+
+**Figure 2.** Edits per page per day in each week before and after Election Day, for candidate pages in competitive and safe races, in 2022 and 2026.
+
+**So far:** the 2026 data supports my main prediction about competitive races, but the 2022 pilot doesn't repeat it, and the overall increase is smaller than I expected. With only four competitive pages and nine baseline edits among them, I treat the 2026 result as a pattern to check against the final data, not a firm answer.
 
 ## How to reproduce
 
