@@ -1,0 +1,5 @@
+cycle,race_type,baseline_page_days,baseline_edits,baseline_rate,campaign_page_days,campaign_edits,campaign_rate,post_page_days,post_edits,post_rate,ratio_campaign_to_baseline
+2022,competitive,280,42,0.15,240,56,0.233,70,60,0.857,1.56
+2022,safe,615,167,0.272,450,156,0.347,126,204,1.619,1.28
+2026,competitive,252,9,0.036,200,50,0.25,8,16,2.0,7.0
+2026,safe,693,120,0.173,550,105,0.191,22,35,1.591,1.1

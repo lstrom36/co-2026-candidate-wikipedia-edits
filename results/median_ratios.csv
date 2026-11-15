@@ -1,0 +1,9 @@
+cycle,comparison,group,pages,pages_with_a_ratio,median_ratio,lowest,highest
+2022,race_type,competitive,5,4,0.76,0.0,1.87
+2022,race_type,safe,9,9,0.7,0.0,4.8
+2022,role,challenger,6,5,1.23,0.0,4.43
+2022,role,incumbent,8,8,0.54,0.0,4.8
+2026,race_type,competitive,4,3,4.2,0.0,11.97
+2026,race_type,safe,11,11,1.05,0.0,5.04
+2026,role,challenger,7,7,1.05,0.52,4.2
+2026,role,incumbent,8,7,1.97,0.0,11.97
